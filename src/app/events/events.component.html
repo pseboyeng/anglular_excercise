@@ -14,5 +14,14 @@
             [img]="event.img"
         ></app-event>
     </div>
+    <div class="pagination-container">
+        <ul class="pagination">
+            <li class="page-item disabled"><a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a></li>
+            <li class="page-item" *ngFor="let item of events; let i = index">
+                <a class="page-link" href="#">{{ i + 1}}</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+    </div>
 </section>
 

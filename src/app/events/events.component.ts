@@ -7,6 +7,8 @@ import { Component } from '@angular/core';
 })
 export class EventsComponent {
 
+  paginatedIndex:number = 0;
+
   events = [
     {
       name: 'Milnerton Coast Ride',

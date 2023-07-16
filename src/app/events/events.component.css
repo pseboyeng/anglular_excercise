@@ -8,3 +8,9 @@
     flex: wrap;
     align-content: space-between;
 }
+
+.pagination-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
