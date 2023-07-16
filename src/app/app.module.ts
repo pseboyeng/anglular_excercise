@@ -13,6 +13,8 @@ import { MoonlightComponent } from './moonlight/moonlight.component';
 import { EventComponent } from './event/event.component';
 import { TruncatePipe } from './truncate.pipe';
 import { GroupComponent } from './group/group.component';
+import { ShopComponent } from './shop/shop.component';
+import { RepairsComponent } from './repairs/repairs.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { GroupComponent } from './group/group.component';
     MoonlightComponent,
     EventComponent,
     TruncatePipe,
-    GroupComponent
+    GroupComponent,
+    ShopComponent,
+    RepairsComponent
   ],
   imports: [
     BrowserModule,

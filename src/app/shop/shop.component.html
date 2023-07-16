@@ -1,11 +1,11 @@
 <div class="card-content">
-    <div class="card" style="width: 18rem;" >
+    <div class="card" style="width: 18rem;">
         <img [src]="img" class="card-img-top" alt="img">
         <div class="card-body">
             <h5 class="card-title">{{name}}</h5>
-            <p class="card-text">{{distance}}</p>
             <p class="card-text">{{description | truncate: 5}}</p>
-            <button type="button" class="btn btn-info">Book</button>
+            <p class="card-text">{{location}}</p>
+            <button type="button" class="btn btn-info">Buy</button>
         </div>
     </div>
 </div>

@@ -5,4 +5,12 @@
     bike, clothing, helmets, or bike components, our shop directory will guide you to reliable and reputable cycling stores
     in your area. Get expert advice and find the perfect equipment for your cycling needs.</p>
     <!-- Shop listings go here -->
+    <div class="shops">
+        <app-shop class="groups" *ngFor="let shop of shops" 
+            [name]="shop.name" 
+            [description]="shop.description"
+            [img]="shop.img"
+            [location]="shop.location"
+            ></app-shop>
+    </div>
 </section>

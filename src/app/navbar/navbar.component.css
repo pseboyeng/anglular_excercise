@@ -14,6 +14,12 @@
     height: 40px;
 }
 
+.brand {
+    font-family: 'Pacifico', cursive;
+    font-size: 2em;
+    letter-spacing: 3px;
+}
+
 .toggle-button {
     display: none;
     background-color: transparent;

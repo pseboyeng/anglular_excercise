@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-shops',
-  templateUrl: './shops.component.html',
-  styleUrls: ['./shops.component.css']
+  selector: 'app-repairs',
+  templateUrl: './repairs.component.html',
+  styleUrls: ['./repairs.component.css']
 })
-export class ShopsComponent {
-  shops = [
+export class RepairsComponent {
+  repairs = [
     {
       name: 'Cycle Botique',
       description: 'Premium Bicycles on budget',
@@ -14,22 +14,22 @@ export class ShopsComponent {
       location: "Greenpoint, Cape Town, Western Cape"
     },
     {
-      name: 'Woodstock Cycles',
-      description: 'Insanely great Bicycles',
-      img: "assets/shops.jpg",
-      location: "Woodstock, Cape Town, Western Cape"
-    },
-    {
-      name: 'Cycleworks',
+      name: 'Cycle Botique',
       description: 'Premium Bicycles on budget',
       img: "assets/shops.jpg",
-      location: "Claremont, Cape Town, Western Cape"
+      location: "Greenpoint, Cape Town, Western Cape"
     },
     {
-      name: 'Olmpus Cycles',
+      name: 'Cycle Botique',
       description: 'Premium Bicycles on budget',
       img: "assets/shops.jpg",
-      location: "Stellenbosch, Cape Town, Western Cape"
+      location: "Greenpoint, Cape Town, Western Cape"
+    },
+    {
+      name: 'Cycle Botique',
+      description: 'Premium Bicycles on budget',
+      img: "assets/shops.jpg",
+      location: "Greenpoint, Cape Town, Western Cape"
     }
   ]
 }

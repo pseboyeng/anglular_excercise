@@ -1,8 +1,11 @@
-<section id="repair-shops">
-    <h2>Repair Shops</h2>
-    <p>Find bike repair shops for professional service.</p>
-    <p>Encounter any mechanical issues with your bike? Our platform provides a comprehensive list of bike repair shops. These
-    establishments have skilled mechanics who can diagnose and fix any problems with your bicycle. Ensure your bike is in
-    top condition for your rides and trust the expertise of our recommended repair shops.</p>
-    <!-- Repair shop listings go here -->
-</section>
+<div class="card-content">
+    <div class="card" style="width: 18rem;">
+        <img [src]="img" class="card-img-top" alt="img">
+        <div class="card-body">
+            <h5 class="card-title">{{name}}</h5>
+            <p class="card-text">{{description}}</p>
+            <p class="card-text">{{location}}</p>
+            <button type="button" class="btn btn-info">Join</button>
+        </div>
+    </div>
+</div>

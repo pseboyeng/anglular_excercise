@@ -1,0 +1,17 @@
+<section id="repairs">
+    <h2>Repair Shops</h2>
+    <p>Find bike repair shops for professional service.</p>
+    <p>Encounter any mechanical issues with your bike? Our platform provides a comprehensive list of bike repair shops.
+        These
+        establishments have skilled mechanics who can diagnose and fix any problems with your bicycle. Ensure your bike
+        is in
+        top condition for your rides and trust the expertise of our recommended repair shops.</p>
+    <!-- Repair shop listings go here -->
+    <div class="repairs">
+        <app-shop class="groups" *ngFor="let repair of repairs" 
+            [name]="repair.name" 
+            [description]="repair.description" 
+            [img]="repair.img"
+            [location]="repair.location"></app-shop>
+    </div>
+</section>

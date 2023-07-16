@@ -5,9 +5,11 @@
     groups where you can meet new friends, share experiences, and organize group rides. Together, you can explore new routes
     and challenge each other to reach new milestones.</p>
     <!-- Group listings go here -->
-    <app-group class="groups" *ngFor="let group of groups"
-    [name]="group.name"
-    [description]="group.description"
-    [img]="group.img"
-    ></app-group>
+    <div class="groups">
+        <app-group class="groups" *ngFor="let group of groups"
+            [name]="group.name"
+            [description]="group.description"
+            [img]="group.img"
+        ></app-group>
+    </div>
 </section>
