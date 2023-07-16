@@ -1,0 +1,18 @@
+<section id="events">
+    <h2>Events</h2>
+    <p>Discover cycling events happening near you.</p>
+    <p>Discover a wide range of cycling events happening in your area. From local charity rides to competitive races, our event
+    listings will keep you informed about upcoming cycling events. Join fellow cyclists and embrace the thrill of riding
+    together.</p>
+    <!-- Event listings go here -->
+    <div class="events">
+    <app-event *ngFor="let event of events"
+     [name]="event.name"
+     [date]="event.date"
+     [distance]="event.distance"
+     [description]="event.description"
+     [img]="event.img"
+    ></app-event>
+    </div>
+</section>
+

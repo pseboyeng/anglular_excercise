@@ -1,0 +1,10 @@
+#events {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.events {
+    display: flex;
+    flex: wrap;
+    align-content: space-between;
+}

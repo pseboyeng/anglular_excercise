@@ -1,0 +1,10 @@
+#groups {
+    background-color: #e6e6e6;
+    padding: 20px;
+}
+
+.groups {
+    display: flex;
+    flex: wrap;
+    align-content: space-between;
+}

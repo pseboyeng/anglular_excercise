@@ -1,0 +1,36 @@
+.hero-section {
+    width:100%;
+    height: 350px;
+    background-image: url("../../assets/hero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+    /* Styles for mobile screens */
+    #hero-section-text {
+            color:rgb(241, 240, 240);
+            margin: auto;
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: large;
+            font-weight: bold;
+            letter-spacing: 2.5 rem;
+        }
+}
+
+@media only screen and (min-width: 769px) {
+    /* Styles for large screens */
+    #hero-section-text {
+            color: rgb(241, 240, 240);
+            margin: auto;
+            padding-left: 200px;
+            padding-right: 200px;
+            font-size: large;
+            font-weight: bold;
+            letter-spacing: 2.5 rem;
+        }
+}

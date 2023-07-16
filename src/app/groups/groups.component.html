@@ -1,0 +1,13 @@
+<section id="groups">
+    <h2>Groups</h2>
+    <p>Connect with local cycling groups.</p>
+    <p>Connect with like-minded cyclists by joining local cycling groups. Our platform helps you find cycling clubs or social
+    groups where you can meet new friends, share experiences, and organize group rides. Together, you can explore new routes
+    and challenge each other to reach new milestones.</p>
+    <!-- Group listings go here -->
+    <app-group class="groups" *ngFor="let group of groups"
+    [name]="group.name"
+    [description]="group.description"
+    [img]="group.img"
+    ></app-group>
+</section>
