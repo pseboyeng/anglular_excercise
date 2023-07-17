@@ -16,6 +16,11 @@ import { GroupComponent } from './group/group.component';
 import { ShopComponent } from './shop/shop.component';
 import { RepairsComponent } from './repairs/repairs.component';
 
+// Firebase services + environment module
+import { AngularFireModule } from '@angular/fire/compat';
+import { AngularFireAuthModule } from '@angular/fire/compat/auth';
+import { environment } from '../environments/environment';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -34,7 +39,9 @@ import { RepairsComponent } from './repairs/repairs.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFireAuthModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -7,7 +7,8 @@ import { Component } from '@angular/core';
 })
 export class EventsComponent {
 
-  paginatedIndex:number = 0;
+  paginatedIndex: number = 0;
+  
 
   events = [
     {
